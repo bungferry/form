@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://unpkg.com/materialize-stepper@3.0.0-beta.1.0.1/dist/js/mstepper.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
   </head>
   <body>
     <!-- 
@@ -29,12 +30,12 @@ https://github.com/Kinark/Materialize-stepper
 
                   <ul data-method="GET" class="stepper linear">
                      <li class="step active">
-                        <div class="step-title waves-effect waves-dark">E-mail</div>
+                        <div class="step-title waves-effect waves-dark">Add Photo</div>
                         <div class="step-content">
                            <div class="row">
                               <div class="input-field col s12">
-                                 <input id="email" name="email" type="email" class="validate" required>
-                                 <label for="email">Your e-mail</label>
+                                 <input id="fileInput" type="file" class="validate" required>
+                                 
                               </div>
                            </div>
                            <div class="step-actions">
@@ -75,5 +76,6 @@ https://github.com/Kinark/Materialize-stepper
    </div>
 </div>
 <script src="feed.js"></script>
+<script src="script.js"></script>
   </body>
 </html>
