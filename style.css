@@ -15,6 +15,12 @@
    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.15);
 }
 
-input {
-  font-size: 10px;
+input[type="file"] { 
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+}
+
+input:focus + label {
+  outline: 2px solid;
 }
