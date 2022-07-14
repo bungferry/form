@@ -25,16 +25,11 @@
     <h1 style="font-family: Tahoma, Geneva, sans-serif; font-weight: normal; color: #2A2A2A; text-align: center; margin-bottom: 65px;font-size: 20px; letter-spacing: 6px;font-weight: normal; border: 2px solid black; padding: 15px;">THANK YOU FOR THE FEEDBACK!</h1>
     <h3 style="font-family:Palatino Linotype, Book Antiqua, Palatino, serif;font-style:italic;font-weight:500"><span style="border-bottom: 1px solid red">Twibbon Generator</span></h3>
     <p style="font-family:Palatino Linotype, Book Antiqua, Palatino, serif;font-size: 15px; margin-left: auto; margin-right: auto; text-align: justify;color: #666;line-height:1.5;margin-bottom:75px">Upload the image you want to make into a twibbon then click 'Create a twibbon!'. Right click and save for PC or touch and hold then download image for smartphone if the download link is dead.</p>
-    <p><div class="container">
-    <!-- The real file input -->
-    <input id="fileInput" type="file" class="container__input" />
-
-    <!-- The upload icon -->
-    <div class="container__icon">⬆️</div>
-
-    <!-- The label -->
-    Add Photo
-    </div></p>
+    <p><label for="file-upload" class="custom-file-upload">
+    Custom Upload
+    </label>
+    <input id="file-upload" type="file"/>
+    <span class="image-name"></span></p>
     <p style="font-family:Palatino Linotype, Book Antiqua, Palatino, serif;font-size: 15px; margin-left: auto; margin-right: auto; text-align: justify;color: #666;line-height:1.5;margin-bottom:75px">
     <img id="preview" src="no-img.png"/>
     <img id="twibbon" src="twibbon.png" style="display: none"/>
