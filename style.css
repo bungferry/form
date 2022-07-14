@@ -1,7 +1,7 @@
 input[type="file"] {
     display: none;
 }
-.custom-file-upload {
+.custom-fileInput {
     border: 1px solid #ccc;
     display: inline-block;
     padding: 6px 12px;
